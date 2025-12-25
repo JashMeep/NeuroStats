@@ -1,0 +1,23 @@
+# === Frontend (React) ===
+frontend/node_modules/
+frontend/build/
+frontend/.pnp
+frontend/.pnp.js
+
+# Environment files (never push secrets)
+frontend/.env.local
+frontend/.env.development.local
+frontend/.env.test.local
+frontend/.env.production.local
+
+# === Backend (Python) ===
+backend/.venv/
+__pycache__/
+*.pyc
+
+# === OS / Misc ===
+.DS_Store
+*.log
+
+# === Optional coverage / testing folders ===
+coverage/
